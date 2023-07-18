@@ -1,6 +1,7 @@
 # This is Question 3 of the assignment.
 # We Would be choosing a configuration file that was created in json format that has
 # several API keys, email id's, usernames etc.
+# newly updated
 
 '''
 In DevOps, automating configuration management tasks is essential for maintaining consistency and managing infrastructure efficiently.
