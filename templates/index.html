@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON Display and Submit Form</title>
+    <script>
+        setTimeout(function() {
+            location.reload();
+        }, 30000);
+    </script>
+</head>
+<body>
+    <h1>JSON Data</h1>
+    <pre>
+        {% for item in data %}
+            {{ item | tojson | safe }}
+        {% endfor %}
+    </pre>
+
+    <h1>Submit Data</h1>
+    <form action="/submit" method="POST">
+        <label for="api_name">API Name:</label>
+        <input type="text" id="api_name" name="api_name" required><br><br>
+        
+        <label for="api_username">API Username:</label>
+        <input type="text" id="api_username" name="api_username" required><br><br>
+        
+        <label for="api_key">API Key:</label>
+        <input type="text" id="api_key" name="api_key" required><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
