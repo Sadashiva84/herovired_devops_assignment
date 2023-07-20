@@ -11,11 +11,12 @@
 
 
 >* *Special character check*
->
 >![Special Character](q1_2.png)
+
 
 >* *Entering a short password, or without numerals or special characters would make it weak*
 >![Password Weak](q1_3.png)
+
 
 >* *If you enter a password that satisfies all the conditions, then the password is strong*
 >![Password Strong](q1_4.png)
@@ -33,13 +34,13 @@
 `import psutil`
 > *Importing this allows the program to use the psutil module that accesses the hardward information such as CPU and RAM utilisation*
 
-> *Program checks the CPU, RAM usage and number of Cores to give its usage percentage, runs continuously using a while statement, refreshes every 2.5 seconds*
+>* *Program checks the CPU, RAM usage and number of Cores to give its usage percentage, runs continuously using a while statement, refreshes every 2.5 seconds*
 ![PSU Util](q2_1.png)
 
-> *Tries to display timezone, since the module is not imported, it gracefully displays an alternate message. Also the program displays current date & time using the datetime module*
+>* *Tries to display timezone, since the module is not imported, it gracefully displays an alternate message. Also the program displays current date & time using the datetime module*
 ![Try and except](q2_2.png)
 
->* Displays that the CPU usage is Healthy
+>* *Displays that the CPU usage is Healthy*
 ![Healthy](q2_3.png)
 
 >* Displays that the CPU usage is Quite Healthy
