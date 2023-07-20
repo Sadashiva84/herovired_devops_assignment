@@ -8,9 +8,15 @@
         "api-name": "twitter",
         "api-username": null,
         "api-key": "9991fal62343d93d92272264a708fdad0dfb20f6"
-    },{
+    },
+    {
         "api-name": "twitter",
         "api-username": null,
         "api-key": "9991fal62343d93d92272264a708fdad0dfb20f6"
+    },
+    {
+        "api-name": "nandini",
+        "api-username": "nanduram",
+        "api-key": "pondati"
     }
 ]

@@ -34,7 +34,13 @@ def check_password_strength(password):
 
     lower_char = False
     upper_char = False
-
+    num_char = False
+    for char in password:
+        if char.isdigit():
+            num_char = True
+            print(Fore.GREEN + "Contains Digits")
+            strength +=1
+            break
 
     for char in password:
         if char.islower():
@@ -78,7 +84,7 @@ def check_password_strength(password):
     else:
         print(Fore.RED + "Password is Poor! Warning")
 
-password = input("Please Enter A Password: ")
+password = input("\nPlease Enter A Password: ")
 
 check_password_strength(password)
 

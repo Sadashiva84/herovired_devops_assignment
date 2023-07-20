@@ -45,7 +45,7 @@ while True:
     
     if cpu_per < 30:
         print(Fore.GREEN + "CPU usage is Very Healthy")
-    elif cpu_per > 30 and cpu_per < 70:
+    elif cpu_per > 29 and cpu_per < 60:
         print(Fore.LIGHTYELLOW_EX + "CPU usage is quite Healthy")
     else:
         print(Fore.RED + "Warning!! CPU usage is Unhealthy")
