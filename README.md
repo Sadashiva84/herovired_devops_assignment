@@ -7,19 +7,19 @@
 >#### Question 1: (solution in question1.py)
 >
 >* *Program checks for lower case, upper case, special characters and numerals/digits to approve if the provide password is Strong, Weak or Poor.*
->![Password Case](q1_1.png)
+![Password Case](q1_1.png)
 
 
 >* *Special character check, if special characters are present, then spcl_char variable turns true and password strength increases by 1*
->![Special Character](q1_2.png)
+![Special Character](q1_2.png)
 
 
 >* *Entering a short password, or without numerals or special characters would make it weak*
->![Password Weak](q1_3.png)
+![Password Weak](q1_3.png)
 
 
 >* *If you enter a password that satisfies all the conditions, then the password is strong*
->![Password Strong](q1_4.png)
+![Password Strong](q1_4.png)
 
 `from colorama import Fore` # Install as mentioned in requirements.txt 
 >* *Importing 'colorama' allows the program to display print statements in various colours, hence I used green color to be a strong password and red colour to warn that the password is poor*
