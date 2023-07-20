@@ -10,7 +10,7 @@
 >![Password Case](q1_1.png)
 
 
->* *Special character check*
+>* *Special character check, if special characters are present, then spcl_char variable turns true and password strength increases by 1*
 >![Special Character](q1_2.png)
 
 
