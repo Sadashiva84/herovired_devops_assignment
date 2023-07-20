@@ -41,13 +41,13 @@
 ![Try and except](q2_2.png)
 
 >* *Displays that the CPU usage is Healthy*
-![Healthy](q2_3.png)
+>![Healthy](q2_3.png)
 
 >* Displays that the CPU usage is Quite Healthy
-![Medium Healthy](q2_4.png)
+>![Medium Healthy](q2_4.png)
 
 >* Displays the CPU usage is Poor, Warning!!
-![Password Poor](q2_5.png)
+>![Password Poor](q2_5.png)
 
 
 
